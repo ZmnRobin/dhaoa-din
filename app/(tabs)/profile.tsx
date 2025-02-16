@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
-import { COLORS } from '@/app/theme/theme';
+import { COLORS } from '../theme/theme';
 
-export default function HomeScreen() {
+export default function ProfileScreen() {
   return (
     <View style={styles.container}>
-      <ThemedText style={styles.title}>Home Screen</ThemedText>
+      <ThemedText style={styles.title}>Profile</ThemedText>
     </View>
   );
 }
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: COLORS.black,
   }
-});
+}); 
